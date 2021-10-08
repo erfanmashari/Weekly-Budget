@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    background-image: url(../img/backgroundd.jpg);
+    background-size: 120%;
+    font-family: 'Changa', sans-serif;
+}
+
+#main {
+    margin-top: 20vw;
+    /* position: absolute; */
+    background-color: rgba(255, 255, 255, 20%);
+}
+
+#h3 {
+    background-color: rgba(255, 255, 255, 20%);
+}
+
+#inputs {
+    background-color: rgba(255, 255, 255, 0%);
+    border-left: 2px solid rgba(255, 255, 255, 20%);
+}
+
+#show-budget {
+    background-color: rgba(255, 255, 255, 0%);
+}
+
+#name,
+#amount {
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 10%);
+}
+
+#enter {
+    border-radius: 8px;
+}
+
+#left {
+    position: relative;
+    right: -1.3vw;
+    margin-right: 1.5vw;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 20%);
+}
+
+#fixed {
+    width: 30vw;
+    height: 7vw;
+    position: fixed;
+    top: 5vw;
+    right: 1vw;
+    margin-bottom: 1.5vw;
+    background-color: rgba(255, 255, 255, 20%);
+}
+
+#costs {
+    height: 7rem;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 20%);
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 20%);
+    ;
+}
+
+
+#li {
+    margin-bottom: 1vw;
+    margin-right: 1vw;
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 700px) {
+    #body {
+        background-size: 180%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #body {
+        background-size: 200%;
+    }
+}
