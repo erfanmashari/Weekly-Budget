@@ -97,3 +97,9 @@
         background-size: 200%;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    #body {
+        background-size: 250%;
+    }
+}
